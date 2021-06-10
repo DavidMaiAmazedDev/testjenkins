@@ -21,7 +21,7 @@
 <script>
     this.socket = io('/', {transports: ['websocket']});
     socket.on('someName', function (data) {
-        console.log(data);
+        console.log(data + 'ok');
         alert(JSON.stringify(data));
     });
 </script>
