@@ -4,7 +4,8 @@
   "description": "test for fun",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/* --exit"
+    "test": "mocha ./test/* --exit",
+    "start": "node index.js"
   },
   "author": "duymai",
   "license": "ISC",
