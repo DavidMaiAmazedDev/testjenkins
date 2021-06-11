@@ -40,7 +40,7 @@ pipeline {
         }
         stage('Quality Tests') {
           steps {
-            sh 'docker login --username $DOCKER_USR --password $DOCKER_PSW'
+            sh 'docker login --username dockermanvq --password MyDocker123!@#'
             sh 'docker tag nodeapp-dev:trunk dockermanvq/nodeapp-dev:latest'
             sh 'docker push dockermanvq/nodeapp-dev:latest'
           }
