@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh jenkins-server-1@34.101.232.196 /bin/bash <<EOF
- cd ~/node-app
+ cd ~/testjenkins
  git pull
  npm install — production
  pm2 restart all
