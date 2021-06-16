@@ -2,7 +2,7 @@
 ssh jenkins-server-1@34.101.139.74 /bin/bash <<EOF
  cd ~/testjenkins
  git pull
- npm install — production
+ npm install -production
  pm2 restart all
  exit
 EOF
